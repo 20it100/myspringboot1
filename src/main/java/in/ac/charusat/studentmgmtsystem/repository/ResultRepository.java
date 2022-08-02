@@ -1,2 +1,7 @@
-package in.ac.charusat.studentmgmtsystem.repository;public interface ResultRepository {
+package in.ac.charusat.studentmgmtsystem.repository;
+
+import in.ac.charusat.studentmgmtsystem.model.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ResultRepository extends JpaRepository<Course, Integer> {
 }
